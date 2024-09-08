@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaExercicios">
+
+    <Button
+        android:id="@+id/btnFavoritos"
+        android:layout_width="170dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/white"
+        android:text="Favoritos"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSmartGo" />
+
+    <ImageView
+        android:id="@+id/imgTreinos"
+        android:layout_width="356dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/treino" />
+
+    <TextView
+        android:id="@+id/txtViewSmartGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Smart Fit GO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTodos"
+        android:layout_width="164dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/black"
+        android:text="Todos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSmartGo" />
+
+    <TextView
+        android:id="@+id/txtViewTreinos"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Meus treinos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewSmartGo" />
+
+    <ImageView
+        android:id="@+id/imgAoVivo"
+        android:layout_width="360dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFavoritos"
+        app:srcCompat="@drawable/aovivo" />
+
+    <Button
+        android:id="@+id/btnIntegrantes"
+        android:layout_width="246dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFC107"
+        android:text="Integrantes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAoVivo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

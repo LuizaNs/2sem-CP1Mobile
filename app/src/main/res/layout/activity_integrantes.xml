@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Integrantes">
+
+    <Button
+        android:id="@+id/btnPamella"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#FFC107"
+        android:text="Pamella Schimalesky - RM551600"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewIntegrantes" />
+
+    <ImageView
+        android:id="@+id/imgLuiza"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/luiza" />
+
+    <TextView
+        android:id="@+id/txtViewIntegrantes"
+        android:layout_width="181dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="middle"
+        android:fontFamily="@font/alatsi"
+        android:text="Integrantes"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLuiza"
+        android:layout_width="187dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#FFC107"
+        android:text="Luiza Nunes - RM99768"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewIntegrantes" />
+
+    <ImageView
+        android:id="@+id/imgPamella"
+        android:layout_width="141dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="105dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLuiza"
+        app:srcCompat="@drawable/pamella" />
+
+    <Button
+        android:id="@+id/btnTelaInicial"
+        android:layout_width="303dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="@color/black"
+        android:text="Tela Inicial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPamella" />
+</androidx.constraintlayout.widget.ConstraintLayout>
